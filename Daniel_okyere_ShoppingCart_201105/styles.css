@@ -37,7 +37,7 @@ html, body{
 
 .main-header{
     background-color: rgba(0, 0, 0, 6);
-    background-image: none;
+    background-image: url("/Daniel_okyere_ShoppingCart_201105/assets/images/snow1.jpg");
     background-size: cover;
     padding-bottom: 30px;
 }
@@ -75,4 +75,51 @@ html, body{
 .shop-item-price{
     flex-grow: 1;
     color: #333;
+}
+
+.product-status{
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    color: white;
+    
+}
+
+.cart-row{
+    display: flex;
+}
+.cart-item{
+    width: 45%;
+}
+
+.cart-price{
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-total{
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+
+.shop-item-details{
+    display: flex;
+    align-items: center;
+    padding: 5px;
 }
