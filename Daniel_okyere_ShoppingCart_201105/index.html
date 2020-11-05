@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniel' Ecommerce website</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="/Daniel_okyere_ShoppingCart_201105/assets/scripts/store.js"></script>
+    <script src="./assets/scripts/store.js"></script>
 </head>
 <body>
     <header class="main-header">
@@ -25,7 +25,7 @@
         <div class="cart-items">
             <div>
                 <span class="shop-item-title">LG Flat Screen</span>
-                <img class="shop-item-image" src="/Daniel_okyere_ShoppingCart_201105/assets/images/lg1.jpg" alt="">
+                <img class="shop-item-image" src="./assets/images/lg1.jpg" alt="">
                 <div class="shop-item-details">
                     <span class="shop-item-price">4000</span>
                     <button class="btn  shop-item-button" type="button">ADD TO CART</button>
@@ -35,7 +35,7 @@
         </div>
         <div class="cart-items">
             <span class="shop-item-title">Samsung Flat Screen</span>
-            <img class="shop-item-image" src="/Daniel_okyere_ShoppingCart_201105/assets/images/samsung1.jpg" alt="">
+            <img class="shop-item-image" src="./assets/images/samsung1.jpg" alt="">
             <div class="shop-item-details">
                 <span class="shop-item-price">5000</span>
                 <button class="btn  shop-item-button" type="button">ADD TO CART</button>
@@ -44,7 +44,7 @@
         </div>
         <div class="cart-items">
             <span class="shop-item-title">TOSHIBA 43" TELEVISION</span>
-            <img class="shop-item-image" src="/Daniel_okyere_ShoppingCart_201105/assets/images/Toshiba1.jpg" alt="">
+            <img class="shop-item-image" src="./assets/images/Toshiba1.jpg" alt="">
             <div class="shop-item-details">
                 <span class="shop-item-price">5000</span>
                 <button class="btn  shop-item-button" type="button">ADD TO CART</button>
@@ -53,14 +53,14 @@
         </div>
     
     </section>
-    <section class="container">
+    <section class="container" id="total_cart_section">
         <h2 class="section-header">CART</h2>
         <div class="cart-row container">
             <span class="cart-item cart-header cart-colum">ITEM</span>
             <span class="cart-price cart-header cart-column">PRICE</span>
             <span class="cart-quantity cart-header cart-column">QUANTITY</span>
         </div>
-    
+        <div id="selected_item_list"></div>
         <div class="cart-total">
             <strong >Total</strong>
             <span class="cart-total-price">Ghs0.00</span>
